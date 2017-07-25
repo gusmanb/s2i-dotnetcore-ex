@@ -1,0 +1,19 @@
+﻿<div style="font-size:40px; text-align:center">Management system</div>
+<form id="loginForm" method="post">
+    <div style="text-align:center">
+        <table class="logintable" align="center" border="1">
+            <tr>
+                <td><input type="text" name="username" /></td>
+                <td>User name</td>
+            </tr>
+            <tr>
+                <td><input type="password" name="password" /></td>
+                <td>Password</td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="#" class="btn btn-primary" onclick="document.getElementById('loginForm').submit();"><span class="glyphicon glyphicon-thumbs-up"></span> Login</a></td>
+            </tr>
+        </table>
+    </div>
+</form>
+@ViewData["error"]

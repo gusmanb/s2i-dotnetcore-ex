@@ -10,11 +10,12 @@ namespace app.Controllers
 {
     public class ManagementController : Controller
     {
+
         public IActionResult Login()
         {
             return View();
         }
-
+        
         [AcceptVerbs("POST")]
         public IActionResult Login(IFormCollection Data)
         {
@@ -41,6 +42,12 @@ namespace app.Controllers
             return Redirect("Channels");
         }
 
+        public IActionResult CloseSession()
+        {
+            HttpContext.Session.Clear();
+            return Redirect("Login");
+        }
+
         public IActionResult Channels()
         {
             var log = HttpContext.Session.GetInt32("logged");
@@ -50,7 +57,20 @@ namespace app.Controllers
 
             return View();
         }
-        
+        [AcceptVerbs("POST")]
+        public IActionResult Channels(IFormCollection Data)
+        {
+            var log = HttpContext.Session.GetInt32("logged");
+
+            if (log == null || log != 1)
+                return Redirect("../Login");
+
+            string url = Data["baseUrl"];
+            DBManager.UpdateSettings(url);
+
+            return View();
+        }
+
         [AcceptVerbs("GET")]
         [Route("Management/EditChannel/{ChannelNumber}")]
         public IActionResult EditChannel(int ChannelNumber)

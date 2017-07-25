@@ -1,0 +1,19 @@
+﻿@{
+
+    var podcasts = DBManager.GetPodcasts((int)ViewData["channel"]);
+    
+}
+
+<div class="container">
+    @foreach (var podcast in podcasts)
+    {
+        <div class="row">
+            <div class="col-sm-7">@(podcast.Title + " - " + podcast.Date)</div>
+            <div class="col-sm-1"><a href="../EditPodcast/@podcast.Channel.Id/@podcast.Id" class="btn btn-warning" style="color:white"><span class="glyphicon glyphicon-edit"></span> Edit</a></div>
+            <div class="col-sm-1"><a href="../DeletePodcast/@podcast.Channel.Id/@podcast.Id" class="btn btn-danger" style="color:white"><span class="glyphicon glyphicon-trash"></span> Delete</a></div>            
+        </div>
+        <hr />
+    }
+</div>
+<a href="../EditPodcast/@ViewData["channel"]/-1" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Create podcasts</a>
+<a href="../Channels" class="btn btn-danger" style="color:white;"><span class="glyphicon glyphicon-backward"></span> Cancel</a>

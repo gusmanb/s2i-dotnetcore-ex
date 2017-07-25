@@ -1,0 +1,36 @@
+﻿@{ 
+    var chan = ViewData["channel"] as ChannelData;
+}
+<form method="post" id="channelEdit">
+    <div class="container form-group">
+        <div class="row">
+            <div class="col-sm-2">Name</div>
+            <div class="col-sm-4"><input class="form-control" type="text" value="@chan.Name" name="channelName" /></div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-2">Description</div>
+            <div class="col-sm-4"><input class="form-control" type="text" value="@chan.Description" name="channelDescription" /></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">Copyright</div>
+            <div class="col-sm-4"><input class="form-control" type="text" value="@chan.Copyright" name="channelCopyright" /></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">Link</div>
+            <div class="col-sm-9"><input class="form-control" type="text" value="@chan.Link" name="channelLink" /></div>
+        </div>
+        <hr />
+    </div>
+</form>
+@if (chan.Id < 1)
+{
+<a href="#"  onclick="document.getElementById('channelEdit').submit();" class="btn btn-success" style="color:white;"><span class="glyphicon glyphicon-plus"></span> Create channel</a>
+}
+@if (chan.Id > 0)
+{
+<a href="#"  onclick="document.getElementById('channelEdit').submit();" class="btn btn-warning" style="color:white;"><span class="glyphicon glyphicon-edit"></span> Save channel</a>
+}
+<a href="../Channels" class="btn btn-danger" style="color:white;"><span class="glyphicon glyphicon-backward"></span> Cancel</a>
+<br />
+@ViewData["error"]

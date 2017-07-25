@@ -1,0 +1,13 @@
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\win10-x64\hostpolicy.dll
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\win10-x64\hostfxr.dll
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\win10-x64\app.exe
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\win10-x64\app.deps.json
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\win10-x64\app.runtimeconfig.json
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\win10-x64\app.runtimeconfig.dev.json
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\win10-x64\app.dll
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\win10-x64\app.pdb
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\win10-x64\app.csproj.CoreCompileInputs.cache
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\win10-x64\app.AssemblyInfoInputs.cache
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\win10-x64\app.AssemblyInfo.cs
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\win10-x64\app.dll
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\win10-x64\app.pdb

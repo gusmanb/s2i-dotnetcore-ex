@@ -1,0 +1,61 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:black;
+    color:white;
+}
+.logintable {
+    border:1px solid white;
+}
+.logintable td {
+    padding: 20px
+}
+
+    .logintable input {
+        color:black;
+    }
+
+a:link 
+{
+    color:#ffd800;
+}
+
+.title {
+    background-image: url(../images/title.jpg);
+    width:572px;
+    height:326px;
+    text-align:center;
+    display:inline-block;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding:20px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}

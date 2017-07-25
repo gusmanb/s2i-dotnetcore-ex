@@ -16,3 +16,5 @@ C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp1.1\app.csprojResolveAss
 C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp1.1\app.AssemblyInfo.cs
 C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp1.1\app.dll
 C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp1.1\app.pdb
+C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp1.1\app.csproj.CoreCompileInputs.cache
+C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp1.1\app.AssemblyInfoInputs.cache

@@ -1,0 +1,11 @@
+C:\wppodcast\withoutparolecasts\app\bin\Debug\netcoreapp2.0\app.deps.json
+C:\wppodcast\withoutparolecasts\app\bin\Debug\netcoreapp2.0\app.runtimeconfig.json
+C:\wppodcast\withoutparolecasts\app\bin\Debug\netcoreapp2.0\app.runtimeconfig.dev.json
+C:\wppodcast\withoutparolecasts\app\bin\Debug\netcoreapp2.0\app.dll
+C:\wppodcast\withoutparolecasts\app\bin\Debug\netcoreapp2.0\app.pdb
+C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp2.0\app.csprojResolveAssemblyReference.cache
+C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp2.0\app.csproj.CoreCompileInputs.cache
+C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp2.0\app.AssemblyInfoInputs.cache
+C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp2.0\app.AssemblyInfo.cs
+C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp2.0\app.dll
+C:\wppodcast\withoutparolecasts\app\obj\Debug\netcoreapp2.0\app.pdb

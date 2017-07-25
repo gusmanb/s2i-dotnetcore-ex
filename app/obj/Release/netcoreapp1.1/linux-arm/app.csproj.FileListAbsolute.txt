@@ -1,0 +1,10 @@
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\linux-arm\app.deps.json
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\linux-arm\app.runtimeconfig.json
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\linux-arm\app.runtimeconfig.dev.json
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\linux-arm\app.dll
+C:\wppodcast\withoutparolecasts\app\bin\Release\netcoreapp1.1\linux-arm\app.pdb
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\linux-arm\app.csproj.CoreCompileInputs.cache
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\linux-arm\app.AssemblyInfoInputs.cache
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\linux-arm\app.AssemblyInfo.cs
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\linux-arm\app.dll
+C:\wppodcast\withoutparolecasts\app\obj\Release\netcoreapp1.1\linux-arm\app.pdb

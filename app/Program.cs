@@ -17,6 +17,7 @@ namespace app
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
+                .UseUrls("http://*:8090")
                 .Build();
 
             host.Run();
