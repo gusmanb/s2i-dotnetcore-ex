@@ -1,0 +1,36 @@
+﻿@{ 
+    var cast = ViewData["podcast"] as Podcast;
+}
+<form method="post" id="podcastEdit" enctype="multipart/form-data">
+    <div class="container form-group">
+        <div class="row">
+            <div class="col-sm-2">Title</div>
+            <div class="col-sm-4"><input class="form-control" type="text" value="@cast.Title" name="podcastTitle" /></div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-2">Description</div>
+            <div class="col-sm-4"><input class="form-control" type="text" value="@cast.Description" name="podcastDescription" /></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">Link</div>
+            <div class="col-sm-4"><input class="form-control" type="text" value="@cast.Link" name="podcastLink" /></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">File</div>
+            <div class="col-sm-9"><input class="form-control" type="file" name="podcastFile" /></div>
+        </div>
+        <hr />
+    </div>
+</form>
+@if (cast.Id < 1)
+{
+<a href="#"  onclick="document.getElementById('podcastEdit').submit();" class="btn btn-success" style="color:white;"><span class="glyphicon glyphicon-plus"></span> Create podcast</a>
+}
+@if (cast.Id > 0)
+{
+<a href="#"  onclick="document.getElementById('podcastEdit').submit();" class="btn btn-warning" style="color:white;"><span class="glyphicon glyphicon-edit"></span> Save podcast</a>
+}
+<a href="../Channels" class="btn btn-danger" style="color:white;"><span class="glyphicon glyphicon-backward"></span> Cancel</a>
+<br />
+@ViewData["error"]
