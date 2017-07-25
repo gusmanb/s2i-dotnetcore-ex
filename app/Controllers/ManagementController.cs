@@ -249,6 +249,7 @@ namespace app.Controllers
             
             DBManager.DeletePodcast(PodcastNumber);
 
+
             return Redirect("../../Podcasts/" + ChannelNumber);
         }
     }
