@@ -9775,10 +9775,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\wppodcast\\withoutparolecasts\\app\\app\\app.csproj",
+      "projectUniqueName": "C:\\wppodcast\\withoutparolecasts\\app\\app.csproj",
       "projectName": "app",
-      "projectPath": "C:\\wppodcast\\withoutparolecasts\\app\\app\\app.csproj",
-      "outputPath": "C:\\wppodcast\\withoutparolecasts\\app\\app\\obj\\",
+      "projectPath": "C:\\wppodcast\\withoutparolecasts\\app\\app.csproj",
+      "outputPath": "C:\\wppodcast\\withoutparolecasts\\app\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
