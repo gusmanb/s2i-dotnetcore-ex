@@ -36,7 +36,7 @@ namespace app
             services.AddSession(options =>
             {
                 // Set a short timeout for easy testing.
-                options.IdleTimeout = TimeSpan.FromMinutes(10);
+                options.IdleTimeout = TimeSpan.FromMinutes(20);
                 options.CookieHttpOnly = true;
             });
         }
